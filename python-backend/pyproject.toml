@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gen-ui-backend"
+version = "0.1.0"
+description = "Simplified LangGraph backend for generative UI"
+dependencies = [
+    "langchain-core>=0.3.0,<0.4",
+    "langchain>=0.3.0,<0.4",
+    "langchain-openai>=0.2.0,<0.3",
+    "python-dotenv==1.0.1",
+    "langgraph>=0.2.0,<0.3",
+    "pydantic>=2.0.0,<3",
+    "langchain-community>=0.3.0,<0.4",
+    "langchain-anthropic>=0.2.0,<0.3",
+    "fastapi>=0.104.0",
+    "uvicorn>=0.24.0",
+    "langserve>=0.3.0"
+]
